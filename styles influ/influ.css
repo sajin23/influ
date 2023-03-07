@@ -1,0 +1,204 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    background: #ebe6e6;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 87px 120px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 35px;
+}
+.nav-title{
+    font-weight: 700;
+font-size: 24px;
+color: #3A3A3A;
+}
+/* main-banner */
+.banner{
+    margin: 145px 120px;
+    margin-left: 133px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+    width: 582px;
+    height: 133px;
+}
+.banner-description{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    line-height: 24px;
+}
+.banner-btn{
+    border-color: white;
+    background: #E02C6D;
+border-radius: 41px;
+width: 196px;
+height: 44px;
+font-weight: 700;
+font-size: 16px;
+color: #FFFFFF;
+}
+/* companies */
+.companies {
+    margin: 100px 165px;
+    text-align: center;  
+     
+}
+.logo{
+    margin-left: 40px;
+    align-items: center;
+    margin-bottom: 69px;
+    
+}
+/* products */
+.products{
+border: 2px gainsboro;
+border-style: double;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+margin: 70px 195px;
+}
+.sor{
+    gap: 30px;
+    background-color: #FFFFFF;
+}
+.product-title{
+    text-align: center;
+    font-weight: 600;
+font-size: 28px;
+color: #3A3A3A;
+margin-bottom: 30px;
+}
+.pro-pic{
+    width: 300px;
+    height: 256px;
+    padding: 15px 17px;
+}
+.info-title{
+    font-weight: 500;
+font-size: 28px;
+color: #18191F;
+}
+.info-sub-title{
+    font-weight: 400;
+font-size: 24px;
+color: #18191F;
+}
+.fa-star{
+    color: yellow;
+    
+}
+.info-desc{
+    font-weight: 700;
+font-size: 14px;
+color: #787885;
+height: 61px;
+}
+/* end  */
+.ends{
+    display: flex;
+    margin: 131px 165px;
+}
+.for{
+    margin-left:96px ;
+}
+.end-title{
+    font-weight: 700;
+font-size: 38px;
+}
+.end-desc{
+    font-weight: 700;
+font-size: 16px;
+color: #6C6C6C;
+}
+.end-btn{
+    width: 155px;
+height: 44px;
+background: #E02C6D;
+font-weight: 700;
+font-size: 16px;
+color: #FFFFFF;
+border: none;
+border-radius: 5px;
+}
+/* footer  */
+footer{
+    background: #000;
+}
+.fan{
+    text-align: center;
+}
+/* media  */
+@media screen and (max-width:688px) {
+    nav{
+        margin: 16px 35px;
+    }
+    .nav-title{
+       text-align: center;
+       margin: 0 99px;
+       line-height: 24px;
+    }
+    .fa-cart-shopping{
+       display: list-item;
+    }
+    nav ul {
+    flex-direction: column;
+    display: none;
+    }
+    .banner{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-strt{
+        width: 299px;
+        margin-bottom: 15px;
+        margin: 0 30px;
+    }
+    .banner-title{
+        width: 298px;
+        margin-top: 20px;
+    }
+    .banner img{
+        width:299px;
+        text-align: top;
+    }
+    .companies{
+        margin: 50px 42px;
+        width: 275px;
+    }
+     .logo{
+        margin-left: 34px;
+     }
+    .products{
+        grid-template-columns: none;
+        flex-direction: column;
+        margin: 50px 15px;
+    }
+    .ends{
+        flex-direction: column;
+        margin: 50px 16px;
+    }
+    .ends-img{
+        position: bottom;
+    }
+}
